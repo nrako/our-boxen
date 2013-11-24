@@ -55,3 +55,24 @@ github "xquartz",    "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+
+github "firefox",    "1.1.4"
+github "chrome",     "1.1.2"
+github "opera",      "0.3.0"
+
+github "iterm2",     "1.0.4"
+github "licecap",    "1.0.0"
+github "skype",      "1.0.6"
+github "mplayerx",   "1.0.1"
+github "alfred",     "1.1.6"
+github "sublime_text_3",  "1.0.1",  repo: "jozefizso/puppet-sublime_text_3"
+github "wget",       "1.0.0"
+github "transmission", "1.0.0"
+github "colloquy",    "1.0.0"
+github "virtualbox", "1.0.9"
+github "vim",        "1.0.5"
+github "github_for_mac", "1.0.1"
+github "osx",            "2.0.0"
+github "ohmyzsh",    "0.0.1",       repo: "haelmy/puppet-ohmyzsh"
+github "ukulele",    "1.0.1",       repo: "niclasnilsson/puppet-ukelele"
