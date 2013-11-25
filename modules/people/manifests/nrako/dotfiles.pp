@@ -14,11 +14,11 @@ class people::nrako::dotfiles {
   #   require => Repository["dotfiles"],
   # }
 
-  file { "${homedir}/.vimrc":
-    ensure  => link,
-    target  => "${::boxen_srcdir}/dotfiles/vimrc",
-    require => Repository["dotfiles"],
-  }
+  # file { "${homedir}/.vimrc":
+  #   ensure  => link,
+  #   target  => "${::boxen_srcdir}/dotfiles/vimrc",
+  #   require => Repository["dotfiles"],
+  # }
 
   # file { "${homedir}/.bash_profile":
   #   ensure  => link,
