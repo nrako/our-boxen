@@ -2,7 +2,7 @@ class people::nrako {
 
   include people::nrako::osx
   include people::nrako::apps
-  # include people::nrako::dotfiles
+  include people::nrako::dotfiles
   # #include people::nrako::git
   # include people::nrako::homebrew
   # include people::nrako::symlinks
